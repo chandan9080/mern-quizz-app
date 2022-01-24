@@ -1,0 +1,43 @@
+
+.result{
+    display: flex;
+    align-content: center;
+    margin: 2px;
+    justify-content: center;
+    height: 100vh;
+}
+.result-container{
+    margin: 20px;
+    height: 50vh;
+    width: 80vw;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 1px 1px 20px rgb(77, 66, 66);
+}
+
+.button-div{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wrong{
+    color: red;
+}
+.failed{
+    font-size: 30px;
+}
+@media only screen and (max-width: 720px) {
+    .result-container{
+        width: 100vw;
+        margin: 10px;
+        height: 80vh;
+    }
+    .button-div{
+        flex-direction: column;
+    }
+}
